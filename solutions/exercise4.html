@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Intro to JS</title>
+      <link href="../css/default.css" rel="stylesheet">
+      <script src='../js/script.js' type="text/javascript"></script>
+  </head>
+
+  <body>
+     <div id='myForm'>
+        <label for="fname">First name</label>
+        <input type="text" name="fname">
+        <label for="lname">Last name</label>
+        <input type="text" name="lname">
+        <label for="orgname">Oragnization</label>
+        <input type="text" name="orgname">
+        <button type="button" value="Submit" onclick="makeId()">Submit</button>
+     </div>
+     <div id='idDisplay'>
+       <div id='idTag'>
+         <img src='../imgs/ire-logo.png'/>
+         <p id='fname-display'>{your first name}</p>
+         <p id='lname-display'>{your last name}</p>
+         <p id='orgname-display'>{your organization}</p>
+       </div>
+     </div>
+   </body>
+</html>
